@@ -1,0 +1,45 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Welcome</servlet-name>
+  	<display-name>Welcome</display-name>
+  	<description></description>
+  	<servlet-class>servlet.Welcome</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CouplingServelt</servlet-name>
+  	<display-name>CouplingServelt</display-name>
+  	<description></description>
+  	<servlet-class>servlet.CouplingServelt</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>Welcome</servlet-name>
+  	<url-pattern>/Welcome</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CouplingServelt</servlet-name>
+  	<url-pattern>/CouplingServelt</url-pattern>
+  </servlet-mapping>
+
+
+  <welcome-file-list>
+         <welcome-file>Menu.jsp</welcome-file>
+    </welcome-file-list>
+  
+</web-app>
